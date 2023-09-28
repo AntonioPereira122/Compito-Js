@@ -28,7 +28,7 @@ const newlabelll1 = document.createElement("label");
 const newlabelll2 = document.createTextNode("Select");
 newlabelll1.appendChild(newlabelll2);
 newForm.appendChild(newlabelll1);
-//--chat gpt pk non avevo voglia
+
 // Create the select element
 const selectElement = document.createElement('select');
 selectElement.name = 'cars';
