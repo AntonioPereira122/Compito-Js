@@ -29,37 +29,31 @@ const newlabelll2 = document.createTextNode("Select");
 newlabelll1.appendChild(newlabelll2);
 newForm.appendChild(newlabelll1);
 
-// Create the select element
 const selectElement = document.createElement('select');
 selectElement.name = 'cars';
 selectElement.id = 'cars';
 
-// Create and append the first option element
 const option1 = document.createElement('option');
 option1.value = 'volvo';
 option1.textContent = 'Volvo';
 selectElement.appendChild(option1);
 
-// Create and append the second option element
 const option2 = document.createElement('option');
 option2.value = 'saab';
 option2.textContent = 'Saab';
 selectElement.appendChild(option2);
 
-// Create and append the third option element
 const option3 = document.createElement('option');
 option3.value = 'mercedes';
 option3.textContent = 'Mercedes';
 selectElement.appendChild(option3);
 
-// Create and append the fourth option element
 const option4 = document.createElement('option');
 option4.value = 'audi';
 option4.textContent = 'Audi';
 selectElement.appendChild(option4);
 
 newForm.appendChild(selectElement);
-// Append the select element to the body or any other desired container
 document.body.appendChild(newForm);
 
 
